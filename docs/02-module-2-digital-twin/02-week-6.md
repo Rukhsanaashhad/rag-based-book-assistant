@@ -11,21 +11,36 @@ This section explores how to use the Unity game engine for high-fidelity visuali
 
 ## Why Unity for Robotics?
 
--   **High-Fidelity Graphics**: Creating photorealistic environments and robot models.
--   **Cross-Platform Support**: Deploying visualizations on various platforms, including VR and AR.
--   **Rich Asset Store**: Access to a vast library of pre-built assets to accelerate development.
+### High-Fidelity Graphics
+Creating photorealistic environments and robot models.
+
+### Cross-Platform Support
+Deploying visualizations on various platforms, including VR and AR.
+
+### Rich Asset Store
+Access to a vast library of pre-built assets to accelerate development.
 
 ## Unity and ROS Integration
 
--   **Unity Robotics Hub**: An open-source toolkit for integrating Unity with ROS.
--   **ROS-TCP-Connector**: The underlying communication protocol for connecting Unity to a ROS network.
--   **Setting up a Project**: A step-by-step guide to creating a Unity project and connecting it to ROS.
+### Unity Robotics Hub
+An open-source toolkit for integrating Unity with ROS.
+
+### ROS-TCP-Connector
+The underlying communication protocol for connecting Unity to a ROS network.
+
+### Setting up a Project
+A step-by-step guide to creating a Unity project and connecting it to ROS.
 
 ## Visualizing a Robot in Unity
 
--   **Importing a URDF**: How to import a robot model into Unity.
--   **Controlling the Robot**: Sending ROS messages from Unity to control the robot's joints.
--   **Visualizing Sensor Data**: Displaying camera feeds and LiDAR scans in the Unity environment.
+### Importing a URDF
+How to import a robot model into Unity.
+
+### Controlling the Robot
+Sending ROS messages from Unity to control the robot's joints.
+
+### Visualizing Sensor Data
+Displaying camera feeds and LiDAR scans in the Unity environment.
 
 ### Example: ROS-TCP-Connector Setup in Unity
 

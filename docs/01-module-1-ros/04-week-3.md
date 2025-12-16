@@ -11,15 +11,25 @@ This section continues our exploration of the ROS 2 architecture, focusing on th
 
 ## ROS 2 Nodes and Topics
 
--   **Creating ROS 2 Nodes**: Writing a simple "Hello World" node in Python and C++.
--   **Publishers and Subscribers**: Implementing communication between nodes using topics.
--   **ROS 2 Launch Files**: Managing multiple nodes with launch files.
+### Creating ROS 2 Nodes
+Writing a simple "Hello World" node in Python and C++.
+
+### Publishers and Subscribers
+Implementing communication between nodes using topics.
+
+### ROS 2 Launch Files
+Managing multiple nodes with launch files.
 
 ## ROS 2 Services and Actions
 
--   **Services**: Implementing request-response communication between nodes.
--   **Actions**: For long-running tasks that provide feedback and can be preempted.
--   **Comparison with ROS 1**: Understanding the differences in implementation.
+### Services
+Implementing request-response communication between nodes.
+
+### Actions
+For long-running tasks that provide feedback and can be preempted.
+
+### Comparison with ROS 1
+Understanding the differences in implementation.
 
 
 

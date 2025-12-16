@@ -11,15 +11,25 @@ This section focuses on the practical implementation of ROS communication mechan
 
 ## ROS Nodes
 
--   **Definition**: Understanding what a ROS node is and its role in the ROS graph.
--   **Creating Nodes**: Step-by-step guide to writing a simple publisher and subscriber node in Python and C++.
--   **Node Lifecycle**: How nodes are initialized, run, and terminated.
+### Definition
+Understanding what a ROS node is and its role in the ROS graph.
+
+### Creating Nodes
+Step-by-step guide to writing a simple publisher and subscriber node in Python and C++.
+
+### Node Lifecycle
+How nodes are initialized, run, and terminated.
 
 ## ROS Topics
 
--   **Publishers and Subscribers**: Detailed explanation of the publish-subscribe model.
--   **Message Types**: Overview of common ROS message types and how to define custom messages.
--   **Code Examples**: Practical examples of publishing and subscribing to data over topics.
+### Publishers and Subscribers
+Detailed explanation of the publish-subscribe model.
+
+### Message Types
+Overview of common ROS message types and how to define custom messages.
+
+### Code Examples
+Practical examples of publishing and subscribing to data over topics.
 
 ### Example: Simple `rclpy` Publisher Node
 
@@ -108,9 +118,14 @@ if __name__ == '__main__':
 
 ## ROS Services
 
--   **Request-Response Model**: How ROS services enable synchronous communication between nodes.
--   **Service Definition**: Defining a service request and response.
--   **Code Examples**: Implementing a simple service server and client.
+### Request-Response Model
+How ROS services enable synchronous communication between nodes.
+
+### Service Definition
+Defining a service request and response.
+
+### Code Examples
+Implementing a simple service server and client.
 
 
 

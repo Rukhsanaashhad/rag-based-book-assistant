@@ -8,14 +8,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://SPECIFY-USERNAME-HERE.github.io',
+  url: 'https://rukhsanaashhad.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/physical-ai-book/',
+  baseUrl: '/rag-based-book-assistant/',
 
   // GitHub pages deployment config.
-  organizationName: 'SPECIFY-USERNAME-HERE',
-  projectName: 'physical-ai-book',
+  organizationName: 'Rukhsanaashhad',
+  projectName: 'rag-based-book-assistant',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -50,7 +50,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      hideTableOfContents: false,
+      hideTableOfContents: true,
       docs: {
         sidebar: {
           hideable: true,
@@ -71,7 +71,7 @@ const config = {
             value: '<span style="font-weight: normal; margin-left: 10px; opacity: 0.8;">Embodied Intelligence for the Future</span>',
           },
           {
-            href: 'https://github.com/SPECIFY-USERNAME-HERE/physical-ai-book',
+            href: 'https://github.com/Rukhsanaashhad/rag-based-book-assistant',
             label: 'GitHub',
             position: 'right',
           },

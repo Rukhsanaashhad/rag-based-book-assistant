@@ -154,7 +154,34 @@
   display: none !important; /* Hide default button if causing issues */
 }
 
-.theme-doc-toc-mobile {
-  background: var(--ifm-background-color) !important;
-  color: var(--ifm-color-content) !important;
+.theme-doc-toc-mobile,
+.theme-doc-toc-desktop,
+.tableOfContents,
+.tocCollapsibleButton {
+  display: none !important;
+}
+
+/* TOC sirf desktop pe dikhega, mobile pe bilkul hide */
+
+@media (max-width: 996px) {
+  .theme-doc-toc-mobile {
+    display: none !important;
+  }
+  .theme-doc-toc-desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 997px) {
+  .theme-doc-toc-desktop {
+    display: block !important;
+  }
+  .theme-doc-toc-mobile {
+    display: none !important;
+  }
+}
+
+/* Extra safety – mobile pe koi TOC na dikhe */
+.tocCollapsibleButton, .theme-doc-toc-mobile {
+  display: none !important;
 }

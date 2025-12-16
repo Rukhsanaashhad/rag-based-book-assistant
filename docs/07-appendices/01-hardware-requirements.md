@@ -9,6 +9,53 @@ slug: /appendices/hardware-requirements
 
 This section provides details on the recommended hardware for undertaking the projects and exercises in this book, with a specific focus on the NVIDIA Jetson development kits.
 
+## Development Workstation
+
+### Operating System
+-   **Recommended:** Ubuntu 20.04 LTS or newer.
+-   **Alternative:** Windows 10/11 with WSL2 (Windows Subsystem for Linux 2) and Ubuntu 20.04.
+
+### CPU, RAM, and Storage
+-   **CPU:** Intel Core i7 / AMD Ryzen 7 or better.
+-   **RAM:** 32 GB DDR4 or more.
+-   **Storage:** 1 TB NVMe SSD or better.
+
+### Graphics Card (GPU)
+-   **NVIDIA GPU:** A dedicated NVIDIA GPU is essential for running Isaac Sim and other GPU-accelerated robotics applications.
+-   **Recommended:** NVIDIA GeForce RTX 3060 / 4060 or better.
+
+## NVIDIA Jetson Developer Kits
+
+### Jetson Orin Nano
+-   An entry-level developer kit for learning and prototyping.
+-   Suitable for basic AI and computer vision tasks.
+
+### Jetson Xavier NX
+-   A mid-range developer kit that offers a significant performance boost over the Nano.
+-   Ideal for more demanding AI and computer vision applications.
+
+### Jetson AGX Orin
+-   The most powerful Jetson developer kit available.
+-   Designed for high-performance robotics and autonomous machines.
+
+## Robotics Hardware
+
+### Mobile Robot Platforms
+-   A mobile robot platform, such as a TurtleBot or a custom-built robot, is recommended for the projects in this book.
+
+### Humanoid Robots
+-   For the advanced modules and capstone project, a humanoid robot is recommended.
+
+## Sensors and Peripherals
+
+### Cameras and LiDAR
+-   A stereo camera, such as the Intel RealSense D435i, is recommended for 3D perception.
+-   A 2D or 3D LiDAR sensor is also recommended for mapping and localization.
+
+### IMUs and other sensors
+-   An Inertial Measurement Unit (IMU) is essential for estimating the robot's orientation.
+-   Other sensors, such as encoders and force-torque sensors, may also be useful.
+
 
 
 

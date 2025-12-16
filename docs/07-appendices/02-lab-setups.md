@@ -5,7 +5,39 @@ sidebar_label: Lab Setups
 slug: /appendices/lab-setups
 ---
 
-# Appendices: Lab Setups
+This appendix provides detailed instructions for setting up your lab environment for the projects in this book.
+
+## Development Environment Setup
+
+### Host PC Configuration
+This section provides guidance on setting up your host PC for robotics development, including operating system recommendations, software installation, and environment configuration.
+
+### Using Virtualization (Docker, WSL2)
+Learn how to use virtualization technologies like Docker and Windows Subsystem for Linux (WSL2) to create isolated and reproducible development environments for your robotics projects.
+
+## Physical Lab Setup
+
+### Workspace and Safety
+This section provides recommendations for setting up a safe and efficient workspace for your robotics projects. It covers topics such as lab layout, power management, and safety protocols.
+
+### Network Configuration
+Learn how to configure your network for robotics development, including setting up a dedicated network for your robots, configuring firewalls, and ensuring reliable communication between your robots and host PC.
+
+## Robot-Specific Setups
+
+### Mobile Robot Assembly and Configuration
+This section provides step-by-step instructions for assembling and configuring a mobile robot for the projects in this book.
+
+### Humanoid Robot Assembly and Configuration
+This section provides step-by-step instructions for assembling and configuring a humanoid robot for the projects in this book.
+
+## Software and Workflow
+
+### Version Control with Git
+Learn how to use Git for version control to manage your robotics projects. This section covers topics such as creating repositories, branching, and merging.
+
+### Continuous Integration and Deployment
+This section provides an overview of continuous integration and deployment (CI/CD) for robotics. Learn how to use CI/CD to automate the building, testing, and deployment of your robotics software.
 
 
 

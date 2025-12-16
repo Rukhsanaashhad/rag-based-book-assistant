@@ -11,16 +11,28 @@ This module delves into the core principles of humanoid robot movement, covering
 
 ## Humanoid Kinematics
 
--   **Forward Kinematics**: Calculating the position and orientation of the end-effector (e.g., hand or foot) from the joint angles.
--   **Inverse Kinematics**: The more complex problem of determining the required joint angles to achieve a desired end-effector position and orientation.
--   **Jacobian Matrix**: Its role in relating joint velocities to end-effector velocities.
+### Forward Kinematics
+Calculating the position and orientation of the end-effector (e.g., hand or foot) from the joint angles.
+
+### Inverse Kinematics
+The more complex problem of determining the required joint angles to achieve a desired end-effector position and orientation.
+
+### Jacobian Matrix
+Its role in relating joint velocities to end-effector velocities.
 
 ## Humanoid Locomotion
 
--   **Bipedal Walking**: The challenges and common approaches to achieving stable bipedal locomotion.
--   **Zero Moment Point (ZMP)**: A key concept for maintaining balance during walking.
--   **Gait Generation**: Different strategies for generating walking patterns, from simple periodic gaits to more dynamic and adaptive movements.
--   **Whole-Body Control**: Coordinating the motion of the entire robot to achieve complex tasks while maintaining balance.
+### Bipedal Walking
+The challenges and common approaches to achieving stable bipedal locomotion.
+
+### Zero Moment Point (ZMP)
+A key concept for maintaining balance during walking.
+
+### Gait Generation
+Different strategies for generating walking patterns, from simple periodic gaits to more dynamic and adaptive movements.
+
+### Whole-Body Control
+Coordinating the motion of the entire robot to achieve complex tasks while maintaining balance.
 
 
 

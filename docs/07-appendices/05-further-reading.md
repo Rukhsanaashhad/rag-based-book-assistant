@@ -5,7 +5,49 @@ sidebar_label: Further Reading
 slug: /appendices/further-reading
 ---
 
-# Appendices: Further Reading
+This appendix provides a curated list of resources for further reading and exploration in the field of Physical AI and Humanoid Robotics.
+
+## Academic Resources
+
+### Key Robotics Journals
+-   **IEEE Transactions on Robotics (T-RO):** A leading journal for research in robotics.
+-   **The International Journal of Robotics Research (IJRR):** One of the oldest and most respected journals in the field.
+-   **Science Robotics:** A high-impact journal covering the latest breakthroughs in robotics.
+
+### Top-Tier Robotics Conferences
+-   **IEEE International Conference on Robotics and Automation (ICRA):** The largest and one of the most prestigious robotics conferences.
+-   **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS):** Another top-tier conference with a broad scope.
+-   **Robotics: Science and Systems (RSS):** A smaller, highly selective conference known for its high-quality research.
+
+## Foundational Textbooks
+
+### Robotics: Modelling, Planning and Control
+*by Bruno Siciliano, Lorenzo Sciavicco, Luigi Villani, and Giuseppe Oriolo*
+A comprehensive textbook covering the fundamentals of robotics, from kinematics and dynamics to motion planning and control.
+
+### Probabilistic Robotics
+*by Sebastian Thrun, Wolfram Burgard, and Dieter Fox*
+A classic textbook on probabilistic methods in robotics, including topics such as localization, mapping, and SLAM.
+
+## Online Courses and Tutorials
+
+### ROS 2 and Gazebo Tutorials
+-   **Official ROS 2 Tutorials:** The official documentation and tutorials for ROS 2.
+-   **Gazebo Tutorials:** The official tutorials for the Gazebo simulator.
+
+### Deep Learning and AI for Robotics
+-   **Coursera's Deep Learning Specialization:** A series of courses on deep learning by Andrew Ng.
+-   **Fast.ai:** A practical, hands-on course on deep learning.
+
+## Community and Open-Source Projects
+
+### ROS Discourse and Community Forums
+A great place to ask questions, share your work, and connect with other robotics enthusiasts.
+
+### Notable Open-Source Robotics Projects
+-   **MoveIt:** A popular motion planning framework for ROS.
+-   **The Point Cloud Library (PCL):** A comprehensive library for 2D/3D image and point cloud processing.
+-   **OpenCV:** A widely used library for computer vision.
 
 
 

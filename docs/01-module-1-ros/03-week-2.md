@@ -11,15 +11,25 @@ This section begins our deep dive into the architecture of ROS and its successor
 
 ## ROS 1 Architecture
 
--   **Master-Node-Slave Architecture**: The role of the ROS Master in facilitating communication between nodes.
--   **XML-RPC based communication**: How nodes register with the master and look up other nodes.
--   **Parameter Server**: A shared dictionary for configuration parameters.
+### Master-Node-Slave Architecture
+The role of the ROS Master in facilitating communication between nodes.
+
+### XML-RPC based communication
+How nodes register with the master and look up other nodes.
+
+### Parameter Server
+A shared dictionary for configuration parameters.
 
 ## ROS 2 Architecture
 
--   **Decentralized Discovery**: The shift from a centralized master to a decentralized discovery mechanism using DDS (Data Distribution Service).
--   **Quality of Service (QoS)**: Fine-tuning communication reliability and durability.
--   **Improved Security**: The introduction of authentication and encryption.
+### Decentralized Discovery
+The shift from a centralized master to a decentralized discovery mechanism using DDS (Data Distribution Service).
+
+### Quality of Service (QoS)
+Fine-tuning communication reliability and durability.
+
+### Improved Security
+The introduction of authentication and encryption.
 
 
 

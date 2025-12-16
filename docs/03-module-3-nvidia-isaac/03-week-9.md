@@ -9,6 +9,38 @@ slug: /module-3-nvidia-isaac/advanced-simulation
 
 This section delves deeper into advanced simulation techniques and features within NVIDIA Isaac Sim, including complex scene composition, dynamic object manipulation, and data generation for machine learning.
 
+## Composing Complex Scenes
+
+### Understanding Prims and USD
+At the core of Isaac Sim is Universal Scene Description (USD), which uses Primitives (Prims) as the fundamental building blocks of a scene. Understanding how to work with Prims is essential for creating and manipulating complex simulation environments.
+
+### Programmatic Scene Creation
+Isaac Sim provides a powerful Python API for programmatically creating and modifying scenes. This allows for the creation of complex and dynamic environments that can be customized for specific robotics tasks.
+
+## Simulating Dynamic Interactions
+
+### NVIDIA PhysX 5 for Realistic Physics
+Isaac Sim uses NVIDIA PhysX 5, a GPU-accelerated physics engine, to simulate realistic interactions between objects in the scene. This enables accurate modeling of robot-environment interactions, collisions, and other physical phenomena.
+
+### Applying Forces and Velocities
+Learn how to apply forces and velocities to objects in the scene to simulate dynamic events. This is useful for creating a wide range of scenarios, from simple object manipulation to complex multi-robot interactions.
+
+## Integrating with ROS 2
+
+### Bi-directional Communication
+Isaac Sim provides seamless integration with ROS 2, allowing for bi-directional communication between the simulation and external ROS 2 nodes. This enables the use of ROS 2 tools and packages for controlling and monitoring simulated robots.
+
+### Controlling Robots with ROS 2
+Discover how to control simulated robots in Isaac Sim using ROS 2. This includes sending joint commands, subscribing to sensor data, and using ROS 2 services and actions to interact with the simulation.
+
+## Generating Synthetic Data
+
+### Ground-Truth Data for Perception
+Isaac Sim can be used to generate large-scale, high-quality synthetic datasets for training and testing perception models. This includes ground-truth data such as bounding boxes, segmentation masks, and depth maps.
+
+### Automating Dataset Generation
+Learn how to automate the process of generating synthetic datasets in Isaac Sim. This allows for the creation of diverse and randomized datasets that can be used to train robust and accurate perception models.
+
 
 
 ---

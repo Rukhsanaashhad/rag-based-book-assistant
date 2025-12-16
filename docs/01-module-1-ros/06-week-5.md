@@ -11,10 +11,17 @@ This section will focus on two important aspects of ROS development: defining ro
 
 ## Unified Robot Description Format (URDF)
 
--   **What is URDF?**: An XML format for representing a robot model.
--   **Key Elements**: Understanding `<robot>`, `<link>`, `<joint>`, and `<visual>` tags.
--   **Creating a Simple URDF**: Step-by-step guide to creating a URDF for a simple robot.
--   **Visualizing in RViz**: How to visualize your robot model in RViz.
+### What is URDF?
+An XML format for representing a robot model.
+
+### Key Elements
+Understanding `<robot>`, `<link>`, `<joint>`, and `<visual>` tags.
+
+### Creating a Simple URDF
+Step-by-step guide to creating a URDF for a simple robot.
+
+### Visualizing in RViz
+How to visualize your robot model in RViz.
 
 ### Example: Simple 2-Link Arm URDF
 
@@ -115,10 +122,17 @@ This URDF defines a simple 2-link robotic arm with a `base_link` and two actuate
 
 ## Creating ROS Python Packages
 
--   **Package Structure**: The standard directory structure for a ROS Python package.
--   **`package.xml` and `setup.py`**: Defining package metadata and dependencies.
--   **Creating a Simple Package**: Building a package with a publisher and subscriber node.
--   **Best Practices**: Tips for organizing your code and managing dependencies.
+### Package Structure
+The standard directory structure for a ROS Python package.
+
+### `package.xml` and `setup.py`
+Defining package metadata and dependencies.
+
+### Creating a Simple Package
+Building a package with a publisher and subscriber node.
+
+### Best Practices
+Tips for organizing your code and managing dependencies.
 
 
 

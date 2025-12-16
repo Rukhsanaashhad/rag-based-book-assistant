@@ -5,7 +5,37 @@ sidebar_label: Grading Rubrics
 slug: /assessments/grading-rubrics
 ---
 
-# Assessments: Grading Rubrics
+This appendix provides an overview of the grading rubrics used in this book.
+
+## Understanding Rubrics
+
+### What is a Rubric?
+A rubric is a scoring guide that is used to evaluate the quality of a student's work. It consists of a set of criteria and a scale of performance levels for each criterion.
+
+### Why Use Rubrics?
+Rubrics are used to ensure that grading is fair and consistent. They also provide students with clear expectations for what is required of them and how their work will be evaluated.
+
+## Components of a Rubric
+
+### Criteria
+The criteria are the specific aspects of the work that will be evaluated. For example, the criteria for a project proposal might include the clarity of the problem statement, the feasibility of the proposed solution, and the quality of the writing.
+
+### Performance Levels
+The performance levels are the different levels of achievement for each criterion. For example, the performance levels for a project proposal might be "Excellent," "Good," "Satisfactory," and "Unsatisfactory."
+
+### Descriptors
+The descriptors are the specific descriptions of what is expected for each performance level for each criterion. They provide a clear and detailed explanation of what is required to achieve a particular level of performance.
+
+## Sample Rubrics
+
+### Project Proposal Rubric
+This rubric is used to evaluate the quality of a project proposal.
+
+### Final Project Rubric
+This rubric is used to evaluate the quality of a final project.
+
+### Presentation Rubric
+This rubric is used to evaluate the quality of a presentation.
 
 
 

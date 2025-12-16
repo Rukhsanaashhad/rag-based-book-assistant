@@ -9,46 +9,36 @@ slug: /module-1-ros/basic-node-development
 
 
 
----
+This section introduces the fundamental concepts of ROS 2 development, including setting up your environment, creating packages, and writing basic nodes for communication.
 
-## Practice Exercises
+## Getting Started with ROS 2
 
-1.  **Publisher Node Implementation**: Write a Python ROS 2 node that publishes a simple `std_msgs/Int32` message to a topic named `/counter` every 0.5 seconds, incrementing the integer value.
-2.  **Subscriber Node Implementation**: Write a Python ROS 2 node that subscribes to the `/counter` topic and prints the received integer values to the console.
-3.  **Package.xml Customization**: Add a new maintainer with an email address, and a new build dependency to the `package.xml` of a ROS 2 package.
-4.  **`setup.py` Entry Point**: Configure the `setup.py` of a ROS 2 Python package to create a new console script entry point for a Python node you've written.
-5.  **Environment Variables**: Explain the purpose of `ROS_DOMAIN_ID` and `ROS_LOCALHOST_ONLY` environment variables in ROS 2. Set `ROS_DOMAIN_ID` to a custom value and verify its effect.
+### Setting up the ROS 2 Environment
+Before you can start developing with ROS 2, you need to set up your environment. This includes installing ROS 2, sourcing the setup files, and configuring your workspace.
 
----
+### Understanding the ROS 2 Workspace
+A ROS 2 workspace is a directory where you can create and manage your ROS 2 packages. It typically contains a `src` directory for your source code, a `build` directory for build files, an `install` directory for installed packages, and a `log` directory for log files.
 
-## Quiz Questions
+## Creating Your First ROS 2 Package
 
-1.  What is the primary role of a "topic" in ROS 2?
-    <details>
-      <summary>Answer</summary>
-      A topic serves as a channel for asynchronous, many-to-many communication between ROS 2 nodes, allowing publishers to send messages and subscribers to receive them.
-    </details>
+### The `package.xml` file
+The `package.xml` file is a manifest file that contains information about your package, such as its name, version, and dependencies.
 
-2.  Which file in a ROS 2 Python package specifies its executable scripts?
-    <details>
-      <summary>Answer</summary>
-      `setup.py` (specifically, via the `entry_points` argument in `setup()`).
-    </details>
+### The `setup.py` file
+The `setup.py` file is a Python script that is used to build and install your package. It specifies the package's name, version, and entry points for your nodes.
 
-3.  How does `colcon build` know what dependencies a ROS 2 package needs?
-    <details>
-      <summary>Answer</summary>
-      `colcon build` reads the `package.xml` file to identify build and run dependencies for the package.
-    </details>
+## Writing a Simple Publisher and Subscriber
 
-4.  What is the significance of the QoS setting `history_depth` for a publisher or subscriber?
-    <details>
-      <summary>Answer</summary>
-      `history_depth` specifies how many samples (messages) are kept in the publisher's or subscriber's queue, influencing how late-joining subscribers or unreliable networks are handled.
-    </details>
+### Publisher Node
+A publisher node is a ROS 2 node that sends messages to a topic. This section will guide you through writing a simple publisher node in Python.
 
-5.  What is a "Node" in ROS 2?
-    <details>
-      <summary>Answer</summary>
-      A Node is an individual process or executable unit within the ROS 2 computational graph, responsible for performing a specific task.
-    </details>
+### Subscriber Node
+A subscriber node is a ROS 2 node that receives messages from a topic. This section will guide you through writing a simple subscriber node in Python.
+
+## Building and Running Your Code
+
+### Using `colcon` to build
+`colcon` is the build tool used in ROS 2. This section will show you how to use `colcon` to build your ROS 2 packages.
+
+### Running your nodes
+Once you have built your packages, you can run your nodes using the `ros2 run` command. This section will show you how to run your publisher and subscriber nodes.

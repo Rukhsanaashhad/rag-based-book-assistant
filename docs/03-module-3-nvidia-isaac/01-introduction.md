@@ -11,16 +11,28 @@ This module introduces NVIDIA Isaac Sim, a powerful robotics simulation platform
 
 ## Key Features of Isaac Sim
 
--   **Photorealistic Rendering**: Leveraging NVIDIA's RTX technology for stunningly realistic visuals.
--   **Physics Simulation**: High-performance, GPU-accelerated physics for accurate simulation of robot dynamics and interactions.
--   **Synthetic Data Generation**: Creating large-scale, annotated datasets for training perception models.
--   **ROS/ROS 2 Integration**: Seamlessly connect your ROS-based robotics applications with Isaac Sim.
+### Photorealistic Rendering
+Leveraging NVIDIA's RTX technology for stunningly realistic visuals.
+
+### Physics Simulation
+High-performance, GPU-accelerated physics for accurate simulation of robot dynamics and interactions.
+
+### Synthetic Data Generation
+Creating large-scale, annotated datasets for training perception models.
+
+### ROS/ROS 2 Integration
+Seamlessly connect your ROS-based robotics applications with Isaac Sim.
 
 ## Getting Started with Isaac Sim
 
--   **Installation and Setup**: A guide to installing Isaac Sim and its dependencies.
--   **User Interface**: An overview of the Isaac Sim interface, including the viewport, stage, and property panels.
--   **Creating a Simple Scene**: Building a basic simulation environment with a robot and some objects.
+### Installation and Setup
+A guide to installing Isaac Sim and its dependencies.
+
+### User Interface
+An overview of the Isaac Sim interface, including the viewport, stage, and property panels.
+
+### Creating a Simple Scene
+Building a basic simulation environment with a robot and some objects.
 
 ## Next Steps
 

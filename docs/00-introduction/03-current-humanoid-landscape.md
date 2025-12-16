@@ -11,16 +11,28 @@ This section provides an overview of the current state of humanoid robotics and 
 
 ## Key Players and Platforms
 
--   **Boston Dynamics**: Known for Atlas, a highly dynamic humanoid robot capable of complex acrobatic maneuvers.
--   **Tesla**: Developing the Tesla Bot (Optimus), a general-purpose humanoid robot intended for a variety of tasks.
--   **Agility Robotics**: Creator of Digit, a bipedal robot designed for logistics and last-mile delivery.
--   **Other notable platforms**: A brief mention of other significant humanoid robots from academia and industry.
+### Boston Dynamics
+Known for Atlas, a highly dynamic humanoid robot capable of complex acrobatic maneuvers.
+
+### Tesla
+Developing the Tesla Bot (Optimus), a general-purpose humanoid robot intended for a variety of tasks.
+
+### Agility Robotics
+Creator of Digit, a bipedal robot designed for logistics and last-mile delivery.
+
+### Other notable platforms
+A brief mention of other significant humanoid robots from academia and industry.
 
 ## Technological Trends
 
--   **AI and Machine Learning**: The role of advanced AI in enabling more autonomous and intelligent humanoid behavior.
--   **Hardware and Actuation**: Innovations in motors, sensors, and materials that are pushing the boundaries of humanoid capabilities.
--   **Human-Robot Interaction**: The development of safer and more intuitive ways for humans to interact with humanoid robots.
+### AI and Machine Learning
+The role of advanced AI in enabling more autonomous and intelligent humanoid behavior.
+
+### Hardware and Actuation
+Innovations in motors, sensors, and materials that are pushing the boundaries of humanoid capabilities.
+
+### Human-Robot Interaction
+The development of safer and more intuitive ways for humans to interact with humanoid robots.
 
 ## Future Outlook
 

@@ -11,19 +11,30 @@ This section focuses on Isaac ROS, a collection of hardware-accelerated packages
 
 ## Introduction to Isaac ROS
 
--   **What is Isaac ROS?**: Overview of Isaac ROS, its benefits, and how it leverages NVIDIA GPUs for accelerated computing.
--   **Isaac ROS Packages**: Exploring key packages for perception, navigation, and manipulation.
+### What is Isaac ROS?
+Overview of Isaac ROS, its benefits, and how it leverages NVIDIA GPUs for accelerated computing.
+
+### Isaac ROS Packages
+Exploring key packages for perception, navigation, and manipulation.
 
 ## Accelerated Perception with Isaac ROS
 
--   **Deep Learning Inference**: Using Isaac ROS for accelerated deep learning inference with pre-trained models.
--   **Stereo Depth Estimation**: Implementing real-time depth perception using stereo cameras.
--   **Object Detection and Tracking**: Leveraging Isaac ROS for robust object detection and tracking in simulated and real-world environments.
+### Deep Learning Inference
+Using Isaac ROS for accelerated deep learning inference with pre-trained models.
+
+### Stereo Depth Estimation
+Implementing real-time depth perception using stereo cameras.
+
+### Object Detection and Tracking
+Leveraging Isaac ROS for robust object detection and tracking in simulated and real-world environments.
 
 ## Integration with Isaac Sim
 
--   **Synthetic Data for Training**: How to use Isaac Sim to generate synthetic data for training Isaac ROS perception models.
--   **End-to-End Simulation**: Building a complete simulation pipeline from sensor data generation in Isaac Sim to perception processing with Isaac ROS.
+### Synthetic Data for Training
+How to use Isaac Sim to generate synthetic data for training Isaac ROS perception models.
+
+### End-to-End Simulation
+Building a complete simulation pipeline from sensor data generation in Isaac Sim to perception processing with Isaac ROS.
 
 ### Example: Isaac ROS VSLAM Configuration (YAML)
 

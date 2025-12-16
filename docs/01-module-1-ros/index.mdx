@@ -7,7 +7,43 @@ slug: /module-1-ros
 
 # Module 1: ROS
 
-This module covers the Robot Operating System (ROS).
+This module provides a comprehensive introduction to the Robot Operating System (ROS), the de-facto standard for robotics middleware. We will cover the fundamental concepts of ROS 2, the tools for building and managing robotics applications, and the vibrant ecosystem that surrounds it.
+
+## Introduction to ROS
+
+### What is ROS?
+ROS is an open-source, flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behavior across a wide variety of robotic platforms.
+
+### Why use ROS?
+ROS provides a number of benefits for robotics development, including:
+-   **Modularity:** ROS encourages a modular design, where complex systems are built from small, reusable components.
+-   **Interoperability:** ROS provides a standardized communication layer that allows different components of a robotics system to communicate with each other, regardless of the programming language or operating system they are written in.
+-   **Rich Ecosystem:** ROS has a large and active community that contributes a wide range of packages and tools for robotics development.
+
+## Core Concepts of ROS 2
+
+### Nodes and Topics
+-   **Nodes:** A node is a process that performs computation. A ROS 2 system is comprised of many nodes that communicate with each other.
+-   **Topics:** A topic is a named bus over which nodes exchange messages. Nodes can publish messages to a topic or subscribe to a topic to receive messages.
+
+### Services and Actions
+-   **Services:** Services are a request/response type of communication. One node offers a service, and another node can make a request to that service and wait for a response.
+-   **Actions:** Actions are a more complex type of communication that are used for long-running tasks. They provide feedback on the progress of the task and can be preempted.
+
+### Parameters and Launch Files
+-   **Parameters:** Parameters are a way to configure nodes at runtime. They can be set from the command line, from a launch file, or from another node.
+-   **Launch Files:** Launch files are a way to start up a collection of nodes and configure their parameters.
+
+## The ROS 2 Ecosystem
+
+### ROS 2 Packages
+A ROS 2 package is a directory that contains a collection of related files, such as nodes, launch files, and message definitions. Packages are the basic unit of organization in ROS 2.
+
+### The ROS 2 CLI
+The ROS 2 command-line interface (CLI) is a set of tools for introspecting and interacting with a ROS 2 system. It can be used to list nodes, topics, and services, to publish and subscribe to topics, and to call services.
+
+### The ROS 2 Build System (colcon)
+`colcon` is the build system used in ROS 2 to build and install packages. It is a powerful tool that can handle complex dependencies and build packages in the correct order.
 
 
 

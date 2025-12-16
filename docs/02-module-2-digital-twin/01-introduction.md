@@ -11,20 +11,33 @@ This module introduces the concept of Digital Twins and how to use Gazebo, a pop
 
 ## Introduction to Digital Twins
 
--   **What is a Digital Twin?**: A virtual representation of a physical object or system.
--   **Why use Digital Twins?**: Benefits include faster prototyping, testing in safe environments, and data analysis.
+### What is a Digital Twin?
+A virtual representation of a physical object or system.
+
+### Why use Digital Twins?
+Benefits include faster prototyping, testing in safe environments, and data analysis.
 
 ## Gazebo Setup
 
--   **Installation**: Installing Gazebo and integrating it with ROS.
--   **Gazebo Interface**: Navigating the Gazebo GUI, including the scene graph and properties panel.
--   **Creating a World**: Building a simple simulation environment with ground planes, walls, and basic shapes.
+### Installation
+Installing Gazebo and integrating it with ROS.
+
+### Gazebo Interface
+Navigating the Gazebo GUI, including the scene graph and properties panel.
+
+### Creating a World
+Building a simple simulation environment with ground planes, walls, and basic shapes.
 
 ## Simulating a Robot
 
--   **Spawning a Robot**: How to load a URDF model into a Gazebo simulation.
--   **Controlling the Robot**: Sending commands to the robot using ROS topics.
--   **Sensors in Gazebo**: Adding and configuring simulated sensors like cameras and LiDAR.
+### Spawning a Robot
+How to load a URDF model into a Gazebo simulation.
+
+### Controlling the Robot
+Sending commands to the robot using ROS topics.
+
+### Sensors in Gazebo
+Adding and configuring simulated sensors like cameras and LiDAR.
 
 ### Example: Full Gazebo Launch File for Robot and World
 

@@ -11,16 +11,28 @@ This module introduces the Robot Operating System (ROS) and its fundamental conc
 
 ## ROS Fundamentals
 
--   **What is ROS?**: Overview of ROS architecture, philosophy, and ecosystem.
--   **ROS Installation and Setup**: Setting up your development environment.
--   **Basic ROS Commands**: Navigating the ROS filesystem, running nodes, and understanding topics.
+### What is ROS?
+Overview of ROS architecture, philosophy, and ecosystem.
+
+### ROS Installation and Setup
+Setting up your development environment.
+
+### Basic ROS Commands
+Navigating the ROS filesystem, running nodes, and understanding topics.
 
 ## Sensor Integration
 
--   **Types of Sensors**: Introduction to common robotics sensors (e.g., LiDAR, cameras, IMUs).
--   **ROS Sensor Messages**: Understanding standard message types for sensor data.
--   **Interfacing with Sensors**: Practical examples of integrating a simulated or real sensor with ROS.
--   **Data Visualization**: Using RViz to visualize sensor data.
+### Types of Sensors
+Introduction to common robotics sensors (e.g., LiDAR, cameras, IMUs).
+
+### ROS Sensor Messages
+Understanding standard message types for sensor data.
+
+### Interfacing with Sensors
+Practical examples of integrating a simulated or real sensor with ROS.
+
+### Data Visualization
+Using RViz to visualize sensor data.
 
 
 

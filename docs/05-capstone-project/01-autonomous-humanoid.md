@@ -11,29 +11,58 @@ The Capstone Project is the culmination of your learning throughout this book. Y
 
 ## Project Goal
 
-To design, implement, and demonstrate an autonomous humanoid robot capable of:
-1.  **Perceiving its environment**: Using sensors (simulated cameras, LiDAR, etc.) to understand the surroundings.
-2.  **Making intelligent decisions**: Utilizing AI/ML models (including VLA models) to plan actions based on sensory input and high-level commands.
-3.  **Executing physical actions**: Controlling the humanoid's kinematics and locomotion to achieve desired movements and interactions.
-4.  **Engaging in basic conversation**: Understanding and responding to simple voice commands using speech recognition and natural language processing.
+The goal of this project is to design, implement, and demonstrate an autonomous humanoid robot capable of performing a complex task.
+
+### Perception
+The robot must be able to perceive its environment using simulated sensors, such as cameras and LiDAR, to understand its surroundings.
+
+### Decision Making
+The robot must be able to make intelligent decisions based on sensory input and high-level commands, utilizing AI/ML models, including VLA models.
+
+### Physical Action
+The robot must be able to execute physical actions by controlling its kinematics and locomotion to achieve desired movements and interactions.
+
+### Conversational Interaction
+The robot must be able to engage in basic conversation, understanding and responding to simple voice commands using speech recognition and natural language processing.
 
 ## Project Deliverables
 
--   **Design Document**: A detailed plan outlining your robot's architecture, chosen algorithms, and implementation strategy.
--   **Codebase**: Well-documented and functional code for your autonomous humanoid.
--   **Demonstration Video**: A video showcasing your robot performing the specified task in Isaac Sim or Gazebo.
--   **Technical Report**: A written report summarizing your approach, challenges faced, and results.
+### Design Document
+A detailed plan outlining your robot's architecture, chosen algorithms, and implementation strategy.
+
+### Codebase
+Well-documented and functional code for your autonomous humanoid.
+
+### Demonstration Video
+A video showcasing your robot performing the specified task in Isaac Sim or Gazebo.
+
+### Technical Report
+A written report summarizing your approach, challenges faced, and results.
 
 ## Suggested Technologies
 
--   **ROS/ROS 2**: For inter-process communication and robotic middleware.
--   **NVIDIA Isaac Sim/Gazebo**: For high-fidelity physics simulation and synthetic data generation.
--   **VLA Models**: For perception, language understanding, and action generation.
--   **Whisper**: For speech recognition.
+### ROS/ROS 2
+For inter-process communication and robotic middleware.
 
-<h2>Evaluation Criteria</h2>
+### NVIDIA Isaac Sim/Gazebo
+For high-fidelity physics simulation and synthetic data generation.
 
-Your project will be evaluated based on the complexity of the task, the robustness of your implementation, the clarity of your design, and the quality of your documentation and demonstration.
+### VLA Models
+For perception, language understanding, and action generation.
+
+### Whisper
+For speech recognition.
+
+## Evaluation Criteria
+
+### Task Complexity and Robustness
+Your project will be evaluated based on the complexity of the task you choose to solve and the robustness of your implementation.
+
+### Design Clarity and Documentation
+The clarity of your design and the quality of your documentation will also be a major factor in your grade.
+
+### Demonstration and Presentation
+Your ability to effectively demonstrate your robot's capabilities and to present your work in a clear and concise manner will be a key part of your evaluation.
 
 <h3>Example: End-to-End Voice Command → Navigation → Manipulation Pipeline</h3>
 
