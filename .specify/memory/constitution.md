@@ -1,55 +1,39 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+---
+Sync Impact Report
+---
+- Version Change: None -> 1.0.0
+- Added Principles:
+  - Principle I: Docusaurus v3 as the Foundation
+  - Principle II: Runnable, High-Quality Content
+  - Principle III: Strict Adherence to Book Structure
+  - Principle IV: Audience-Centric Tone and Style
+  - Principle V: Phase 1 Delivers the Book Only
+- Templates Requiring Updates:
+  - ⚠ .specify/templates/plan-template.md
+  - ⚠ .specify/templates/spec-template.md
+  - ⚠ .specify/templates/tasks-template.md
+-->
+# Physical AI & Humanoid Robotics: Bridging Digital Brains with Physical Bodies Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Docusaurus v3 as the Foundation
+All content MUST be created and rendered using the latest Docusaurus 3 static site generator. The visual style MUST be the clean Docusaurus default theme with dark mode enabled. This ensures a consistent, modern, and maintainable reader experience.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Runnable, High-Quality Content
+Every major concept MUST be accompanied by at least one runnable code example (primarily Python + ROS 2). All diagrams MUST be in Mermaid syntax or high-quality PNG/SVG. The use of Docusaurus admonitions (`:::tip`, `:::warning`, `:::danger`) is mandatory to highlight key information, common mistakes, and safety notes.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Strict Adherence to Book Structure
+The 9-part book structure is non-negotiable and MUST be followed precisely. This structure provides the foundational roadmap for the project and ensures all required topics are covered in the correct sequence.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Audience-Centric Tone and Style
+The writing tone MUST be professional yet exciting, adopting a mentor-style voice that is motivational for the target audience of university students and self-learners. Explanations MUST be clear, student-friendly, and use simple analogies. Technical terms remain in English.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
-
-### [PRINCIPLE_6_NAME]
-
-
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### V. Phase 1 Delivers the Book Only
+The scope of Phase 1 is strictly limited to creating and deploying the interactive online book. No chatbot development or other Phase 2 activities are permitted. The phase is complete only when the book is 100% finished, searchable, mobile-friendly, and live on GitHub Pages.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This Constitution is the authoritative source for project rules and principles. All development activities, specifications, plans, and tasks must align with it. Amendments require review and approval, with changes reflected in an updated version number.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-12 | **Last Amended**: 2025-12-12

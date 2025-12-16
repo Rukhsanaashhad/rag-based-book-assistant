@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+*   **Docusaurus v3 Alignment**: Does the plan utilize Docusaurus v3 and its features (dark mode, admonitions)?
+*   **Runnable Content**: Does the plan account for creating runnable code examples for all concepts?
+*   **Structure Adherence**: Does the plan follow the 9-part book structure?
+*   **Audience Focus**: Is the tone and complexity of the planned content appropriate for the target audience?
+*   **Phase 1 Scope**: Does the plan stay within the bounds of creating the book (no chatbot work)?
 
 ## Project Structure
 
